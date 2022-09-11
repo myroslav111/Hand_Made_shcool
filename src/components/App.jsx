@@ -15,7 +15,6 @@ export const App = () => {
   };
 
   const onGalleryIconClick = () => {
-    // setOpenGallery(prev => !prev);
     console.log('click');
     setOpenGallery(true);
   };
