@@ -1,0 +1,17 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7ebf0;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px,
+    rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+  z-index: 2;
+  backdrop-filter: blur(0px);
+  background: rgba(255, 255, 255, 0.7);
+  /* padding: 0 15px 0 15px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
